@@ -1,0 +1,22 @@
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+.section-title h2 {
+    font-size: 18px!important;
+}
+
+.icon[_ngcontent-c4] {
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+.pl-100 {padding-left:0px; }
+.answers {margin:0}
+.ml-65 {margin-left:45px;}
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+
+.why-choose-banner img {width:100%;}
+
+}

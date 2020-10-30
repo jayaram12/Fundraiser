@@ -1,0 +1,376 @@
+.main-menu ul li a {
+    color: #fff !important;
+}
+.header-right-wrap .same-style > a {
+    color: #fff;
+    font-size: 23px;
+}
+.header-right-wrap .same-style:hover > a {
+    color: #fff;
+}
+.header-padding-1 .container-fluid {
+    padding: 0 20px;
+}
+.header-right-wrap .same-style .account-dropdown{left:-92px;}
+.sticky-bar.stick {
+    background-color: #4f786d;
+    border-bottom: 1px solid #ececec;
+}
+
+/*** custom checkboxes ***/
+.fund-check{
+    position: absolute;
+    z-index: 999999;
+    margin: 8px;
+}
+.select-items-cam{
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 20px;
+}
+.fund-check input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+.fund-check input[type=checkbox] + label:before {
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.fund-check input[type=checkbox] + label:before { content: "\f096";font-size: 25px; } /* unchecked icon */
+.fund-check input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+.fund-check input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+.fund-check input[type=checkbox]:checked + label:before { letter-spacing: 5px; } /* allow space for check mark */
+.product-wrap .product-content .product-price span.old {
+    color: #44c502;
+    text-decoration: none;
+}
+.product-img-items a {
+    line-height: 48px !important;
+}
+.title-fund {
+    color: #4f786d;
+    font-size: 18px !important;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 17px;
+    position: relative;
+    text-transform: inherit;
+}
+.title-fund::before {
+    content: "";
+    background: #4f786d;
+    bottom: -9px;
+    content: "";
+    height: 2px;
+    left: 3px;
+    position: absolute;
+    width: 35px;
+}
+.req{
+    color: #ff2323;
+}
+.lab-cap{
+    font-size: 14px;
+    color: #4f786d;
+}
+.fund-view-auto{min-height:400px !important;max-height:400px !important;}
+/* how it works css */
+.how-it-area{text-align:center;padding: 0 30px;}
+.how-it-txt h2 {
+    font-size: 17px;
+    padding: 0 36px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.f-pad {
+    padding: 0 12px !important;
+}
+.w-fun-h h2{font-weight:600;}
+.w-fun-area{
+    background-color: #f6f8fa;
+    padding: 60px 0;
+}
+.start-fund{
+    font-size: 13px !important;
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    font-weight: 800;
+}
+.start-fund-mrg-t{margin-top: 24px !important;}
+.quick-campaign-area {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.campaign-img {
+    min-height: 250px;
+    max-height: 250px;
+    overflow: hidden;
+    text-align: center;
+}
+.campaign-img img{width:100%;}
+.campaign-header h2 {
+    font-size: 18px;
+    margin-top: 10px;
+	line-height:24px;
+}
+.campaign-create{font-size:15px;margin-bottom:5px;}
+.campaign-create a{
+    color: #4f786d;
+    text-decoration: underline;
+}
+.campaign-loc img{width:15px;}
+.campaign-footer{background-color:#f6f8fa;padding:5px;overflow:hidden;margin-top: 12px;}
+.cam-footer-flock{}
+.cam-footer-flock h4 {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.cam-footer-flock p{font-size:12px;}
+.fblock-1{width:33%;float:left;text-align:center;}
+.fblock-2{width:33%;float:left;text-align:center;}
+.fblock-3{width:33%;float:left;text-align:center;}
+
+.fundraising{background:#efefef}
+.fundraising-form{background-color: #fff;
+    padding: 30px;}
+.fund input{
+	background-color:#fff;
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    color: #333;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.fund select{
+	background-color:#fff;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid #e6e6e6;
+    color: #333;
+    font-size: 14px;
+    height: 45px;
+    padding: 2px 20px;
+    background: rgba(0, 0, 0, 0) url(../../assets/img/icon-img/select.png) no-repeat scroll right 18px center;
+    cursor: pointer;
+}
+.fun-form-head {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.fundraising-img-block img{width:100%;}
+.fundraising-img-block{padding:30px 0;}
+.rounded-btn {
+    background-color: #4f786d;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    z-index: 9;
+}
+.rounded-btn:hover {
+    background-color: #4f786d;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    z-index: 9;
+	text-decoration:none;
+}
+.ml-10{margin-left:10px;}
+.fund-payment{text-align:center;border:1px solid #dedede;padding:10px;width:600px;margin:0px auto;margin-bottom:40px;}
+.fund-payment img{width:250px;margin:15px;}
+.fund-payment p{font-size:14px;}
+
+.file-upload-wrapper {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dedede;
+}
+.file-upload-wrapper:after {
+  content: attr(data-text);
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+  padding: 10px 15px;
+  display: block;
+  width: calc(100% - 40px);
+  pointer-events: none;
+  z-index: 20;
+  height: 40px;
+  line-height: 30px;
+  color: #333;
+  border-radius: 5px 10px 10px 5px;
+  font-weight: 300;
+}
+.file-upload-wrapper:before {
+  content: 'Upload';
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: inline-block;
+  height: 50px;
+  background: #4f786d;
+  color: #fff;
+  font-weight: 700;
+  z-index: 25;
+  font-size: 16px;
+  line-height: 50px;
+  padding: 0 15px;
+  text-transform: uppercase;
+  pointer-events: none;
+  border-radius: 0 5px 5px 0;
+}
+.file-upload-wrapper:hover:before {
+  background: #3d8c63;
+}
+.file-upload-wrapper input {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+.fund-dates {
+    background-color: #f5f5f5;
+    padding: 15px;
+    text-align: center;
+    width: 48%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    float: left;
+    min-height: 390px;
+}
+.fund-dates .fund{text-align:left;}
+.fund-dates img{}
+.fund-dates h2{font-size:18px;}
+.fund-dates p{font-size:14px;}
+.campaing-title h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.campaign-block{padding:0 150px;}
+.campaing-title h3{font-size:15px;}
+.campaign-details{padding:10px;background-color:#ececec;overflow:hidden;}
+.campaign-det-img {
+    width: 63%;
+    float: left;
+    padding: 5px;
+    background-color: #f7f7f7;
+}
+
+.campaign-det-sidebar {
+    width: 36%;
+    float: left;
+    padding: 10px;
+    background-color: #f7f7f7;
+    margin-left: 5px;
+}
+.campaign-det-sidebar h2 {
+    font-size: 32px;
+    font-weight: 500;
+	margin-bottom:25px;
+}
+.campaign-det-sidebar p{font-size:16px;margin-bottom:0px;}
+.campaign-det-sidebar p.cdate{font-size:12px;color:#ccc;}
+.campaign-progress{margin-top:20px;}
+.campaign-progress p.prog-title{font-size:14px;}
+.campaign-progress .progress-bar{background-color: #4f786d;}
+.fund-success, .fund-success:hover{
+    background: #4d766b;
+    color: #fff;
+    padding: 15px 10px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    font-size: 20px;
+}
+.fund-created h2{font-size:18px;}
+.creat-user{width:25%;float:left;text-align:center;padding:10px;}
+.creat-user img{width:100%;}
+.creat-txt{width:75%;float:left;}
+.creat-txt h3{font-size:16px;margin-bottom:0px;}
+.creat-txt h4{font-size:12px;}
+.creat-txt p {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.cam-com-b{
+    overflow: hidden;
+    border: 1px solid #dedede;
+    padding: 11px;
+}
+.cam-com-inn{
+	border-bottom:1px solid #dedede;
+	overflow:hidden;
+}
+.cam-com-inn:last-child{
+	border-bottom:none;
+}
+.cam-com-b-img{width:25%;float:left;text-align:center;padding:10px;}
+.cam-com-b-img img{width:100%;}
+.cam-com-b-txt{width:75%;float:left;}
+.cam-com-b-txt h3{font-size:16px;margin-bottom:0px;}
+.cam-com-b-txt p{font-size:12px;margin-bottom:0px;line-height:17px;}
+.see-all{
+    background-color: #4d766b;
+    color: #fff;
+    padding: 5px 10px;
+	margin-top:10px;
+}
+.campaign-share{margin:15px 0;}
+.campaign-share ul li{display:inline-block;}
+.campaign-share ul li a{
+    background-color: #4d766b;
+    padding: 4px 8px;
+    border-radius: 3px;
+    color: #fff;
+}
+.cam-del-m{
+	height: 500px!important;
+    width: 600px!important;
+	display: table-cell;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    list-style: none;
+    margin: 5px;
+    float: left;}
+.cam-del-mn{
+    display: block;
+    height: 500px;
+    width: 100%;
+    line-height: 500px;
+    text-align: center;
+    overflow: hidden;
+    border: none;
+    box-shadow: none;
+    position: relative;
+}
+.cam-del-mn img{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
